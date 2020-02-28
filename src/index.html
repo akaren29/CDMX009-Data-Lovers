@@ -15,10 +15,18 @@
           <div class="logo-letras">
             <img src=https://i.ibb.co/vV89K5T/logo-pokefan.png alt="">
           </div>
-          <div class="poner-nombre"></div>
-          <div class="boton-pokebola"><a href=#segunda-seccion><img src= "https://i.ibb.co/RBBXcN3/pokebola.png" alt=""></div></a>
+          <div class="poner-nombre">
+            <div id="name">
+         </div>
+          <div>
+            <input type="text" name="name" id="namecontent" placeholder="Escribe tu nombre">
+            <div class="boton-pokebola">
+          <a href=#segunda-seccion type="button" id="acceder" class="boton-pokebola"><img src= "https://i.ibb.co/RBBXcN3/pokebola.png" alt=""></div></a>
+
+       </div>
        </div>
      </section>
+     <!-- pagina principal -->
      <section class="contenido">
         <a name="segunda-seccion"></a>
        <div class="contenido-principal">
@@ -30,7 +38,8 @@
            <div class="capa-degradado"></div>
            <div class="container-details"></div>
            <div class="details"></div>
-           <p><strong>Bienvenido Nombre</strong><br>En esta aplicación podras encontrar <br>todos los pokemosnes de la región Kanto,<br> primera generación  desde Bulbasaur hasta Mew. </p>
+           <div id="paginaContenedorNombre"></div>
+           <p>En esta aplicación podras encontrar <br>todos los pokemosnes de la región Kanto,<br> primera generación  desde Bulbasaur hasta Mew. </p>
          </div>
          <div class="pokemones">
            <div class="cuadrado"></div>
@@ -54,6 +63,10 @@
 
 
     <div id="root"></div>
+    <script>
+    obtenerNombre()
+
+    </script>
     <script type="module" src="main.js"></script>
   </body>
 </html>
