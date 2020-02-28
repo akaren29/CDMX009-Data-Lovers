@@ -1,0 +1,164 @@
+.contenedor{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 1350px;
+  height: 2500px;
+  background-image: url(https://i.ibb.co/DQbvRx0/Untitled-5.jpg);
+  background-size: contain;
+}
+
+.contenedor-inicio{
+  width: 1350px;
+  height: 650px;
+  background-image: url(https://i.ibb.co/k4cCtVK/fondo-inicio-peque-o.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.logo-letras img{
+  flex: 1 1 auto;
+  margin-top: 5px;
+  margin-left: 430px;
+  width: 500px;
+  height: 180px;
+  align: center;
+}
+
+.boton-pokebola img{
+  flex: 1 1 auto;
+  margin-top: 60px;
+  margin-left: 595px;
+  width: 140px;
+  height: 170px;
+}
+
+.contenido{
+  width: 1350px;
+  height: 2500px;
+  background-image: url(https://i.ibb.co/DQbvRx0/Untitled-5.jpg);
+  background-size: contain;
+}
+
+.contenedor-contenido{
+  margin-top: 60px;
+  margin-left: 100px;
+  background-color: white;
+  width: 1150px;
+  height: 2500px;
+  align: center;
+  opacity: 0.8;
+
+}
+
+.header{
+  margin-top: 30px;
+  margin-left: 100px;
+  background-color: #5037D4;
+  width: 1150px;
+  height: 80px;
+}
+
+.logo-principal{
+  align: center;
+  margin-left: 500px;
+  width: 160px;
+  height: 200px;
+}
+.container-portada{
+  margin-top: 20px;
+  width: 300;
+  height: 150px;
+  background-image: url(https://i.ibb.co/vPLZJ16/cabeza-21.png);
+  background-size:200%;
+  background-color: white;
+
+
+  animation: movimiento 20s infinite linear alternate;
+}
+
+@keyframes movimiento {
+  from{
+    background-position: left;
+
+  }to{
+    background-position: right;
+  }
+
+}
+
+.capa-degradado{
+  width: 1000px;
+  height: 150px;
+  position: absolute;
+  background: -webkit-linear-gradient(left, rgba(255,255,255, 4.9), rgba(255,255,255, 0.0));
+}
+
+.container-details{
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin-left: auto;
+}
+
+.details{
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  top: 20px;
+}
+
+p{
+  margin-top: 5px;
+  margin-left: 50px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  font-size: 1.5em;
+  font-family: arial bold;
+  opacity: 0.99
+}
+
+.pokemones{
+  margin-top: 10px;
+}
+
+
+
+.cuadrado{
+  width: 400px;
+  height: 60px;
+  align; left;
+  background-color: #7FFF00;
+}
+
+.cuadrado-blanco:{
+  margin-left: 500px;
+  width: 100px;
+  height: 60px;
+  background-color: white;
+
+
+}
+
+.cuadrado-1{
+  margin-left: 750px;
+  width: 400px;
+  height: 60px;
+  background-color: #7FFF00;
+}
+
+
+
+.aside{
+  width: 300px;
+  height: 2000px;
+  align; left: auto;
+  margin-left: 20px;
+  margin-top: 50px;
+  background-color: #5037D4;
+  opacity: 0.6;
+}
