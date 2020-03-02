@@ -139,8 +139,8 @@ p{
   padding-bottom: 30px;
   padding-top: 20px;
   text-align: center;
-  font-size: 1.5em;
-  font-family: arial bold;
+  font-family: arial;
+  font-size:25px;
   opacity: 0.99
 }
 
@@ -151,24 +151,36 @@ p{
 
 
 .cuadrado{
-  width: 400px;
+  margin-top: 30px;
+  width: 350px;
   height: 60px;
   align; left;
   background-color: #7FFF00;
 }
 
-.cuadrado-blanco:{
-  margin-left: 500px;
-  width: 100px;
-  height: 60px;
-  background-color: white;
-
+.pokemones p{
+  margin-right: 40px;
+  margin-top: -90px;
+  font-size: 50px;
+  text-align: center;
+  font-family: arial black;
+  text-shadow: 2px  0px 0px #0090FF,
+               0px  2px 0px #0090FF,
+              -2px  0px 0px #0090FF,
+               0px -2px 0px #0090FF;
 
 }
 
+.pokemones a{
+  text-decoration: none
+
+}
+
+
 .cuadrado-1{
-  margin-left: 750px;
-  width: 400px;
+  margin-top: -140px;
+  margin-left: 800px;
+  width: 350px;
   height: 60px;
   background-color: #7FFF00;
 }
@@ -176,11 +188,12 @@ p{
 
 
 .aside{
-  width: 300px;
+  width: 250px;
   height: 2000px;
   align; left: auto;
   margin-left: 20px;
   margin-top: 50px;
   background-color: #5037D4;
   opacity: 0.6;
+  border-radius: 30px;
 }

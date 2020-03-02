@@ -1,6 +1,7 @@
-import { example } from './data.js';
+//
+import pokemon from './data/pokemon/pokemon.js';
 
-console.log(example);
+// funcion traer nombre
 
 let botonacceder = document.getElementById('acceder');
 botonacceder.addEventListener('click', obtenerNombre);
@@ -12,3 +13,5 @@ function obtenerNombre  (name) {
        document.getElementById('paginaContenedorNombre').innerText=('Hola ' + nameresult + ' Bienvenid@');
     }
 }
+
+console.log(pokemon);
