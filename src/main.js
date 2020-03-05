@@ -1,5 +1,5 @@
  import POKEMON from './data/pokemon/pokemon.js';
- //console.log(POKEMON.pokemon);
+ console.log(POKEMON.pokemon);
 
  // funcion traer nombre
 let obtenerNombre = name => {
