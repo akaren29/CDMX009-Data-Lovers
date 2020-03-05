@@ -22,16 +22,26 @@
 
 .logo-letras img{
   flex: 1 1 auto;
-  margin-top: 5px;
+  margin-top: 0;
   margin-left: 430px;
   width: 500px;
   height: 180px;
   align: center;
 }
 
+#namecontent{
+  margin-left: 520px;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+
+}
+
 .boton-pokebola img{
   flex: 1 1 auto;
-  margin-top: 60px;
+  margin-top: 15px;
   margin-left: 595px;
   width: 140px;
   height: 170px;
@@ -45,7 +55,7 @@
 }
 
 .contenedor-contenido{
-  margin-top: 60px;
+  margin-top: 80px;
   margin-left: 100px;
   background-color: white;
   width: 1150px;
@@ -53,6 +63,16 @@
   align: center;
   opacity: 0.8;
 
+}
+
+#paginaContenedorNombre{
+  margin-top: 40px;
+  margin-left: 50px;
+  padding-top: 20px;
+  text-align: center;
+  font-family: arial black;
+  font-size: 25px;
+  opacity: 0.99;
 }
 
 .header{
@@ -70,9 +90,9 @@
   height: 200px;
 }
 .container-portada{
-  margin-top: 20px;
+  margin-top: 30px;
   width: 300;
-  height: 150px;
+  height: 180px;
   background-image: url(https://i.ibb.co/vPLZJ16/cabeza-21.png);
   background-size:200%;
   background-color: white;
@@ -92,10 +112,11 @@
 }
 
 .capa-degradado{
+  margin-left: 70px;
   width: 1000px;
-  height: 150px;
+  height: 180px;
   position: absolute;
-  background: -webkit-linear-gradient(left, rgba(255,255,255, 4.9), rgba(255,255,255, 0.0));
+  background: -webkit-linear-gradient(left, rgba(255,255,255, 0.0), rgba(255,255,255, 4.9), rgba(255,255,255, 0.0));
 }
 
 .container-details{
@@ -117,8 +138,9 @@ p{
   margin-left: 50px;
   padding-bottom: 30px;
   padding-top: 20px;
-  font-size: 1.5em;
-  font-family: arial bold;
+  text-align: center;
+  font-family: arial;
+  font-size:25px;
   opacity: 0.99
 }
 
@@ -129,24 +151,36 @@ p{
 
 
 .cuadrado{
-  width: 400px;
+  margin-top: 30px;
+  width: 350px;
   height: 60px;
   align; left;
   background-color: #7FFF00;
 }
 
-.cuadrado-blanco:{
-  margin-left: 500px;
-  width: 100px;
-  height: 60px;
-  background-color: white;
-
+.pokemones p{
+  margin-right: 40px;
+  margin-top: -90px;
+  font-size: 50px;
+  text-align: center;
+  font-family: arial black;
+  text-shadow: 2px  0px 0px #0090FF,
+               0px  2px 0px #0090FF,
+              -2px  0px 0px #0090FF,
+               0px -2px 0px #0090FF;
 
 }
 
+.pokemones a{
+  text-decoration: none
+
+}
+
+
 .cuadrado-1{
-  margin-left: 750px;
-  width: 400px;
+  margin-top: -140px;
+  margin-left: 800px;
+  width: 350px;
   height: 60px;
   background-color: #7FFF00;
 }
@@ -154,11 +188,61 @@ p{
 
 
 .aside{
-  width: 300px;
+  display: inline-flex;
+  width: 250px;
   height: 2000px;
   align; left: auto;
   margin-left: 20px;
   margin-top: 50px;
   background-color: #5037D4;
   opacity: 0.6;
+  border-radius: 30px;
+}
+
+.container-cards{
+  display: inline-flex;
+  width:870px;
+  height:2000px;
+}
+
+.card-link{
+  margin: 10px 20px 5px 20px;
+}
+.card-link:hover .pos-title{
+  transition: color 0.3 ease;
+  color: rgb(154,205,50);
+}
+.card-link:hover .post-image{
+  transition:opacity 0.3s ease;
+  opacity: 0.9;
+}
+.blog-card{
+  height: 150px;
+  width: 150px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 4px 20px rgba(0,0,0,0.16);
+	color:rgb(0,0,205);
+	float: left;
+	font-size: 21px;
+    text-align: center;
+    margin-bottom: 15px;
+    display: grid;
+    align-content: center;
+    padding: 30px 20px 40px 20px;
+}
+.blog-card {
+  height: 135px;
+  width: 145px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.16);
+  color: #2B4D86;
+  float: left;
+  font-size: 21px;
+  text-align: center;
+  margin-bottom: 15px;
+  display: grid;
+  align-content: center;
+  padding: 30px 20px 40px 20px;
 }
