@@ -19,7 +19,7 @@ botonacceder.addEventListener('click', obtenerNombre);
    list.forEach((data) => {
        const card = `
        <div class = 'card-link'>
-         <article class='blog-card'>
+         <article class='container-cards'>
           <img class='post-image' src='${data.img}' />
            <h3 class='post-id' > ${data.num} </h3>
            <div class='article-details'>

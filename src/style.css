@@ -1,10 +1,15 @@
+html{
+  background-image: url(https://i.ibb.co/DQbvRx0/Untitled-5.jpg);
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
 .contenedor{
   display: flex;
   flex-flow: column nowrap;
   width: 1350px;
   height: 2500px;
-  background-image: url(https://i.ibb.co/DQbvRx0/Untitled-5.jpg);
-  background-size: contain;
+  
 }
 
 .contenedor-inicio{
@@ -50,8 +55,6 @@
 .contenido{
   width: 1350px;
   height: 2500px;
-  background-image: url(https://i.ibb.co/DQbvRx0/Untitled-5.jpg);
-  background-size: contain;
 }
 
 .contenedor-contenido{
@@ -191,7 +194,6 @@ p{
   display: inline-flex;
   width: 250px;
   height: 2000px;
-  align; left: auto;
   margin-left: 20px;
   margin-top: 50px;
   background-color: #5037D4;
@@ -199,11 +201,12 @@ p{
   border-radius: 30px;
 }
 
-.container-cards{
+/*.container-cards, .card-link{
   display: inline-flex;
   width:870px;
   height:2000px;
-}
+  margin: 10px 20px 5px 20px;
+}*/
 
 .card-link{
   margin: 10px 20px 5px 20px;
@@ -216,21 +219,30 @@ p{
   transition:opacity 0.3s ease;
   opacity: 0.9;
 }
-.blog-card{
-  height: 150px;
-  width: 150px;
-	background-color: #ffffff;
+#container-principal-cards{
+  display: inline-block;
+  width:500px;
+  background-color: pink;
+  flex-direction: column;
+}
+.container-cards{
+  display:flex;
+}
+/* .container-cards{
+  /*height: 150px;
+  width: 150px;*/
+  /* margin: 10px 20px 5px 20px
 	border-radius: 10px;
 	box-shadow: 0 4px 20px rgba(0,0,0,0.16);
 	color:rgb(0,0,205);
-	float: left;
 	font-size: 21px;
     text-align: center;
     margin-bottom: 15px;
     display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
     align-content: center;
     padding: 30px 20px 40px 20px;
-}
+} */ 
 .blog-card {
   height: 135px;
   width: 145px;
