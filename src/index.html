@@ -31,7 +31,7 @@
      <!-- pagina principal -->
      <section class="contenido">
         <a name="segunda-seccion"></a>
-       <div class="contenido-principal">
+        <div class="contenido-principal"> 
        <div class="header">
          <img src="https://i.ibb.co/cbwJy0K/logo-principal1.png" class="logo-principal" alt="">
        </div>
@@ -48,22 +48,33 @@
            <div class="cuadrado"></div>
              <a href=#ir-pokemones><p>Pokémones</p></a>
            <div class="cuadrado-1"></div>
-           </div>
+           </div> 
 
-
-         <div class="aside"></div>
-         <!-- aqui se muestran todas las gtarjetas de los poemones -->
-         <div id="container-principal-cards" class="container-cards">
-           <div id="container-cards"></div>
+           <div id="ListadePokemones">
+            <div class="aside">
+               <div id="orderPoke" class="orderPoke">
+                <select id="orderPokemon" class="orderPokemon">
+                 <option>Ordenar por:</option>
+                 <option value="00">A-Z</option>
+                 <option value="01">Z-A</option>
+                 <option value="02">Número Ascendente</option>
+                 <option value="03">Número Descendente</option>
+                </select>
+               </div>  
+            </div>
+           <!-- aqui se muestran todas las tarjetas de los pokemones -->
+             <div id="container-cards-pokemon" class="container-cards-pokemon"></div>
+            </div>
+         
          </div>
-          
-         <div class="footer"></div>
-         </div>
 
+         
        </div>
      </div>
 
-
+     
+      
+     <div class="footer"></div>
 
 
 

@@ -19,7 +19,7 @@ botonacceder.addEventListener('click', obtenerNombre);
    list.forEach((data) => {
        const card = `
        <div class = 'card-link'>
-         <article class='container-cards'>
+         <article class='container-cards id='container-cards'>
           <img class='post-image' src='${data.img}' />
            <h3 class='post-id' > ${data.num} </h3>
            <div class='article-details'>
@@ -31,6 +31,6 @@ botonacceder.addEventListener('click', obtenerNombre);
        `;
     templateListPokemon += card;
    });
-   document.getElementById('container-cards').innerHTML = templateListPokemon
+   document.getElementById('container-cards-pokemon').innerHTML = templateListPokemon
  };
  template(data);
