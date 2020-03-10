@@ -1,14 +1,24 @@
+html{
+  background-image: url(https://i.ibb.co/DQbvRx0/Untitled-5.jpg);
+  background-size: contain;
+  background-repeat: repeat-y;
+
+}
+
+
 .contenedor{
   display: flex;
   flex-flow: column nowrap;
-  width: 1350px;
+  width: 100%;
+  max-width: 1350px;
   height: 2500px;
-  background-image: url(https://i.ibb.co/DQbvRx0/Untitled-5.jpg);
-  background-size: contain;
+
+
 }
 
 .contenedor-inicio{
-  width: 1350px;
+  width: 100%;
+  max-width: 1350px;
   height: 650px;
   background-image: url(https://i.ibb.co/k4cCtVK/fondo-inicio-peque-o.jpg);
   background-position: center;
@@ -24,14 +34,17 @@
   flex: 1 1 auto;
   margin-top: 0;
   margin-left: 430px;
-  width: 500px;
-  height: 180px;
+  width: 80%;
+  max-width: 500px;
+  height: 90%;
+  max-height: 180px;
   align: center;
 }
 
 #namecontent{
   margin-left: 520px;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: 40px;
   font-size: 20px;
   text-align: center;
@@ -40,7 +53,7 @@
 }
 
 .boton-pokebola img{
-  flex: 1 1 auto;
+  flex: 1 2 auto;
   margin-top: 15px;
   margin-left: 595px;
   width: 140px;
@@ -48,18 +61,18 @@
 }
 
 .contenido{
-  width: 1350px;
-  height: 2500px;
-  background-image: url(https://i.ibb.co/DQbvRx0/Untitled-5.jpg);
-  background-size: contain;
+  width: 100%;
+  max-width: 1350px;
+  max-height: 2500px;
 }
 
 .contenedor-contenido{
   margin-top: 80px;
   margin-left: 100px;
   background-color: white;
-  width: 1150px;
-  height: 2500px;
+  width: 100%;
+  max-width: 1150px;
+  max-height: 2500px;
   align: center;
   opacity: 0.8;
 
@@ -86,13 +99,15 @@
 .logo-principal{
   align: center;
   margin-left: 500px;
-  width: 160px;
-  height: 200px;
+  width: 100%;
+  max-width: 160px;
+  max-height: 200px;
 }
 .container-portada{
   margin-top: 30px;
-  width: 300;
-  height: 180px;
+  width: 100%;
+  max-width: 300;
+  max-height: 180px;
   background-image: url(https://i.ibb.co/vPLZJ16/cabeza-21.png);
   background-size:200%;
   background-color: white;
@@ -118,6 +133,7 @@
   position: absolute;
   background: -webkit-linear-gradient(left, rgba(255,255,255, 0.0), rgba(255,255,255, 4.9), rgba(255,255,255, 0.0));
 }
+
 
 .container-details{
   width: 100%;
@@ -152,9 +168,10 @@ p{
 
 .cuadrado{
   margin-top: 30px;
-  width: 350px;
+  width: 90%;
+  max-width: 350px;
   height: 60px;
-  align; left;
+  align: left;
   background-color: #7FFF00;
 }
 
@@ -180,20 +197,276 @@ p{
 .cuadrado-1{
   margin-top: -140px;
   margin-left: 800px;
-  width: 350px;
+  width: 90%;
+  max-width: 350px;
   height: 60px;
   background-color: #7FFF00;
 }
 
 
 
-.aside{
-  width: 250px;
-  height: 2000px;
-  align; left: auto;
+//* diseño de tarjeta */
+article {
+  display:inline-flex;
+  width: 80%;
+  height: 80vw;
+  box-sizing: border-box;
+  background-color: green;
+}
+
+.container-cards{
+  flex-direction: row;
+  margin: 10px;
+}
+
+
+.container-botones{
+  width: 20vw;
+  height:
+}
+
+
+
+#ListadePokemones{
+  display:inline-flex;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.card-link{
+  margin: 10px;
+  display:flex;
+}
+
+.container-cards-pokemon{/*Padre div de la lista de pokemones*/
+  display:grid;
+  grid-template-columns: 190px 190px 190px 190px;
+  width: 100%;
+  margin: 30px 20px 20px 15px;
+  grid-gap:25px; /*Indica el espacion entre lìneas*/
+  background-color: white;
+}
+.container-cards{
+  display: grid;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  align-content: center;
+  background-color: white;
+  background: -webkit-linear-gradient(bottom, rgba(145,219,202, 1.9), rgba(255,255,255, 0.0));
+  border: 5px solid #5037D4;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.35);
+
+}
+
+.cuadro-dentro{
+  width: 11vw;
+  height: 17vw;
+  align.content: center;
+  background-color: white;
+  border-radius: 15px;
+  align.content: center
+
+}
+
+.contimg{
+  margin: 4px 10px 5px 18px;
+  width: 100%;
+  height: 8vw;
+
+}
+
+.article-details{
+  width: 11vw;
+  height: 7vw;
+  border-radius:7px;
+  align-content: center
+
+}
+.cards .img{
+  width: 100%;
+  opacity: 100%
+}
+
+.cuadro-dentro .nombre{
+  margin-top: -27px;
+  font-size: 22px;
+  text-align: center;
+  font-family: arial black;
+  text-shadow: 2px  0px 0px #98C934,
+               0px  2px 0px #98C934,
+              -2px  0px 0px #98C934,
+               0px -2px 0px #98C934;
+}
+
+
+.cuadro-dentro .num{
+  margin-left: 5px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  text-align: center;
+  font-family: arial black;
+  opacity: 0.9;
+
+}
+.tipo {
+  margin-top: -33px;
+  padding: 2px;
+  text-align: center;
+  font-size: 16px;
+  font-family: arial black;
+}
+
+
+aside{
+  display: inline-flex;
+  width:25%;
+  height: 1000px;
   margin-left: 20px;
   margin-top: 50px;
   background-color: #5037D4;
   opacity: 0.6;
   border-radius: 30px;
 }
+
+
+
+#orderPokemon{
+    text-align: center;
+    margin: 90px 10px 25px 10px;
+    background: #FF0D40;
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    align-content: center;
+    font-size: 18px;
+}
+ #orderPokemon:hover{
+  background: #FFA30D;
+ }
+
+
+
+
+ #hierva{
+   margin-top: -18px;
+   margin-left: 28px;
+   width: 25px;
+   background-color: #98C934;
+   font-family: arial black;
+   font-size: 6px;
+   text-align: center;
+   border: 2px solid	#387013;
+   border-radius: 4px;
+   opacity: 0.99;
+
+
+ }
+
+ #veneno{
+   margin-top: -12px;
+   margin-left: 58px;
+   width: 25px;
+   background-color: #9E6698;
+   font-family: arial black;
+   font-size: 6px;
+   text-align: center;
+   border: 2px solid	#584177;
+   border-radius: 4px;
+   opacity: 0.99;
+
+   }
+   #debilidades p{
+     margin-top: 4px;
+     margin-left: 3px;
+     font-size: 8px;
+     font-family: arial black;
+   }
+
+   #fuego{
+     margin-top: -8px;
+     margin-left: 15px;
+     width: 27px;
+     background-color: #EB6530;
+     font-family: arial black;
+     font-size: 6px;
+     text-align: center;
+     border: 2px solid	#D33F29;
+     border-radius: 4px;
+     opacity: 0.99;
+
+     }
+     #volador{
+       margin-top: -12px;
+       margin-left: 50px;
+       width: 27px;
+       background-color: #A8A2A6;
+       font-family: arial black;
+       font-size: 6px;
+       text-align: center;
+       border: 2px solid	#463B4D;
+       border-radius: 4px;
+       opacity: 0.99;
+
+       }
+       #hielo{
+         margin-top: 2px;
+         margin-left: 15px;
+         width: 27px;
+         background-color: #02AFEB;
+         font-family: arial black;
+         font-size: 6px;
+         text-align: center;
+         border: 2px solid		#143B86;
+         border-radius: 4px;
+         opacity: 0.99;
+
+         }
+         #psiquico{
+           margin-top: -12px;
+           margin-left: 50px;
+           width: 27px;
+           background-color: #F50F57;
+           font-family: arial black;
+           font-size: 6px;
+           text-align: center;
+           border: 2px solid	#C50E4E;
+           border-radius: 4px;
+           opacity: 0.99;
+
+           }
+
+
+           @media scren and (max-width: 700px){
+             .contenedor{
+               width: 100%;
+             }
+             .aside{
+               width: 100%;
+
+             }
+           }
+           .logo-letras img{
+             flex: 1 1 auto;
+             margin-top: 0;
+             align-items: center;
+             width: 80%;
+             max-width: 500px;
+             height: 90%;
+             max-height: 180px;
+             align: center;
+           }
+
+
+           @media scren and (max-width: 400px){
+             .contenedor{
+               width: 100%;
+             }
+             .aside{
+               display: none;
+
+             }
+           }
