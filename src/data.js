@@ -10,22 +10,23 @@ import POKEMON from './data/pokemon/pokemon.js';
 
 
 
-const data = window.POKEMON.pokemon;
-window.data = data;
+const pokeData = window.POKEMON.pokemon;
+window.pokeData = pokeData;
 
-const order = (data, selectedOrder) => {
+//Ordenar
+const order = (pokeData, selectedOrder) => {
     let filterOrder = "";
     if (selectedOrder === "1-151") {
-        filterOrder = data.sort((a, b) => {
+        filterOrder = pokeData.sort((a, b) => {
             return a.id - b.id
         })} else if (selectedOrder === "151-1") {
-            filterOrder = data.sort((a, b) => {
+            filterOrder = pokeData.sort((a, b) => {
             return b.id - a.id
         })} else if (selectedOrder === "A-Z") {
-            filterOrder = data.sort((a, b) => {
+            filterOrder = pokeData.sort((a, b) => {
             return a.name.localeCompare(b.name);
         })} else if (selectedOrder === "Z-A") {
-            filterOrder = data.sort((a, b) => {
+            filterOrder = pokeData.sort((a, b) => {
             return b.name.localeCompare(a.name);
         })}
         return filterOrder;
