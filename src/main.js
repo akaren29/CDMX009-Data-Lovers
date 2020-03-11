@@ -12,6 +12,21 @@ let botonacceder = document.getElementById('acceder');
 botonacceder.addEventListener('click', obtenerNombre);
 
 
+//Función para ordenar a los pokemones
+  document.getElementById('orderPokemon').addEventListener( 'click', (event) =>{
+   const selectedIndex = event.currentTarget.selectedIndex;
+   if (selectedIndex === 1){
+     template(sorData(pokemones, 'name', 'A-Z'));
+   }else if (selectedIndex === 2){
+     template(sorData(pokemones, 'name', 'Z-A'));
+   }else if (selectedIndex === 3){
+     template(sorData(pokemones, 'number', 'asc'));
+   }else if(selectedIndex === 4){
+     template(sorData(pokemones, 'number', 'des'));
+   }
+ });
+
+
 //Funcion traer pokemones a pagina contenedor
  const pokemones = data.pokemon;
  const template = () => {
