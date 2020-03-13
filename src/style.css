@@ -1,7 +1,13 @@
 html{
+  width: 100vw;
   background-image: url(https://i.ibb.co/DQbvRx0/Untitled-5.jpg);
   background-size: contain;
   background-repeat: repeat-y;
+
+}
+body{
+  width: auto;
+  height: 100%;
 
 }
 
@@ -10,13 +16,23 @@ html{
   display: flex;
   flex-flow: column nowrap;
   width: 100%;
-  max-width: 1350px;
-  height: 2500px;
+  max-width: 1550px;
+  height: 100%;
+  margin:auto;
+  background-size: cover !important;
+   -webkit-background-size: cover !important;
+   -moz-background-size: cover !important;
+   -o-background-size: cover !important;
+   box-sizing: border-box;
 
 
 }
 
 .contenedor-inicio{
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   max-width: 1350px;
   height: 650px;
@@ -26,24 +42,29 @@ html{
   background-size: contain;
   background-repeat: no-repeat;
 
+
   display: flex;
   flex-flow: column nowrap;
 }
 
 .logo-letras img{
-  flex: 1 1 auto;
-  margin-top: 0;
-  margin-left: 430px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 80%;
   max-width: 500px;
-  height: 90%;
-  max-height: 180px;
+  min-width: 50%;
+  height: 100%;
+  max-height: 200px;
   align: center;
 }
 
 #namecontent{
-  margin-left: 520px;
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   max-width: 300px;
   height: 40px;
   font-size: 20px;
@@ -53,38 +74,48 @@ html{
 }
 
 .boton-pokebola img{
-  flex: 1 2 auto;
-  margin-top: 15px;
-  margin-left: 595px;
-  width: 140px;
-  height: 170px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  align: right;
+  width: 10%;
+  height: 12%;
 }
 
 .contenido{
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   max-width: 1350px;
   max-height: 2500px;
 }
 
 .contenedor-contenido{
-  margin-top: 80px;
-  margin-left: 100px;
-  background-color: white;
+  display: block;
+  padding-top: 9vw;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   max-width: 1150px;
   max-height: 2500px;
   align: center;
-  opacity: 0.8;
+
 
 }
 
 #paginaContenedorNombre{
-  margin-top: 40px;
-  margin-left: 50px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 20px;
   text-align: center;
   font-family: arial black;
-  font-size: 25px;
+  font-size: 5vh;
   opacity: 0.99;
 }
 
@@ -93,28 +124,31 @@ input#show:checked ~ div#content {
 }
 
 .header{
-  margin-top: 30px;
-  margin-left: 100px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #5037D4;
-  width: 1150px;
-  height: 80px;
+  width: 85.5%;
+  height: 7vw;
 }
 
 .logo-principal{
-  align: center;
-  margin-left: 500px;
-  width: 100%;
-  max-width: 160px;
-  max-height: 200px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
 }
 .container-portada{
-  margin-top: 30px;
+  display: block;
+  margin-top: -5%;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
-  max-width: 300;
-  max-height: 180px;
   background-image: url(https://i.ibb.co/vPLZJ16/cabeza-21.png);
   background-size:200%;
-  background-color: white;
+  background-repeat: no-repeat;
 
 
   animation: movimiento 20s infinite linear alternate;
@@ -131,15 +165,22 @@ input#show:checked ~ div#content {
 }
 
 .capa-degradado{
-  margin-left: 70px;
-  width: 1000px;
-  height: 180px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 82%;
+  height: 14.2vw;
   position: absolute;
   background: -webkit-linear-gradient(left, rgba(255,255,255, 0.0), rgba(255,255,255, 4.9), rgba(255,255,255, 0.0));
 }
 
 
 .container-details{
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   max-width: 1200px;
   position: relative;
@@ -154,8 +195,10 @@ input#show:checked ~ div#content {
 }
 
 p{
-  margin-top: 5px;
-  margin-left: 50px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 30px;
   padding-top: 20px;
   text-align: center;
@@ -165,24 +208,33 @@ p{
 }
 
 .pokemones{
-  margin-top: 10px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 
 .cuadrado{
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 100%;
   margin-top: 30px;
   width: 90%;
   max-width: 350px;
-  height: 60px;
+  height: 5vw;
   align: left;
   background-color: #7FFF00;
 }
 
 .pokemones p{
-  margin-right: 40px;
-  margin-top: -90px;
-  font-size: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -7vw;
+  font-size: 3.3em;
   text-align: center;
   font-family: arial black;
   text-shadow: 2px  0px 0px #0090FF,
@@ -193,6 +245,10 @@ p{
 }
 
 .pokemones a{
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   text-decoration: none
 
 }
@@ -200,11 +256,13 @@ p{
 
 
 .cuadrado-1{
-  margin-top: -140px;
-  margin-left: 800px;
+  display: block;
+  margin-top: -150px;
+  margin-left: 70%;
+  margin-right: auto;
   width: 90%;
   max-width: 350px;
-  height: 60px;
+  height: 5vw;
   background-color: #7FFF00;
 }
 
@@ -212,52 +270,78 @@ p{
 
 //* diseño de tarjeta */
 article {
+  position: relative;
   display:inline-flex;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
   width: 80%;
   height: 80vw;
   box-sizing: border-box;
-  background-color: green;
+  background-color: white;
 }
 
 .container-cards{
   flex-direction: row;
-  margin: 10px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
 
 .container-botones{
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 20vw;
-  height:
 }
 
 
 
 #ListadePokemones{
+  position: relative;
   display:inline-flex;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   height: 100%;
-  background-color: white;
+  background-color: rgba(255,255,255,0.8);
 }
 
 .card-link{
+  position: relative;
+  height: auto;
   margin: 10px;
   display:flex;
+  z-index: auto;
 }
 
 .container-cards-pokemon{/*Padre div de la lista de pokemones*/
   display:grid;
+  align: right ;
+  position: relative;
   grid-template-columns: 190px 190px 190px 190px;
   width: 100%;
-  margin: 30px 20px 20px 15px;
+  height: auto;
+  margin: 30px 20px 20px 7px;
   grid-gap:25px; /*Indica el espacion entre lìneas*/
-  background-color: white;
+  box-sizing: border-box;
 }
 
+
+
 .container-cards{
+  position: static;
   display: grid;
   margin: 10px;
-  padding: 10px;
+  padding: 13px;
   width: 100%;
+  height: 17vw;
   align-content: center;
   background-color: white;
   background: -webkit-linear-gradient(bottom, rgba(145,219,202, 1.9), rgba(255,255,255, 0.0));
@@ -287,7 +371,12 @@ border: 5px solid #7FFF00;
 }
 
 .contimg{
-  margin: 4px 10px 5px 16px;
+  position: relative;
+  display: block;
+  padding-left: 1vw;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   height: 8vw;
 }
@@ -299,14 +388,23 @@ border: 5px solid #7FFF00;
   align-content: center
 
 }
+
 .cards .img{
+  position: absolute;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
-  opacity: 100%
+  max-width: 20px;
 }
 
 .cuadro-dentro .nombre{
-  margin-top: -27px;
-  font-size: 22px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2vw;
+  font-size: 1.4em;
   text-align: center;
   font-family: arial black;
   text-shadow: 2px  0px 0px #98C934,
@@ -336,18 +434,32 @@ border: 5px solid #7FFF00;
 
 aside{
   display: inline-flex;
-  width:25%;
+  width:22%;
   height: 1000px;
   margin-left: 20px;
   margin-top: 50px;
-  background-color: #5037D4;
+  background-color: rgba(80,55,212,0.8);
   opacity: 0.6;
   border-radius: 30px;
+}
+aside{
+/*  position: fixed;
+  top:1vw;
+  float: left;*/
+}
+
+select option{
+  text-align: center;
 }
 
 
 
 #orderPokemon{
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17vw;
   height: 35px;
     text-align: center;
     margin: 90px 10px 25px 10px;
@@ -359,18 +471,52 @@ aside{
     font-family: arial black;
     font-size: 18px;
     text-align:center;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.95);
+    box-shadow: 0 15px 10px rgba(0,0,0,0.45);
 }
  #orderPokemon:hover{
   background: #FFA30D
 
  }
  #orderPokemon:hover  {
- -webkit-transform:scale(1.25);
- -moz-transform:scale(1.25);
- -ms-transform:scale(1.25);
- -o-transform:scale(1.25);
- transform:scale(1.25);
+ -webkit-transform:scale(1.3);
+ -moz-transform:scale(1.3);
+ -ms-transform:scale(1.3);
+ -o-transform:scale(1.3);
+ transform:scale(1.3);
  }
+
+ #typePokemones{
+   display: block;
+   margin-top: auto;
+   margin-left: auto;
+   margin-right: auto;
+   width: 17vw;
+   height: 35px;
+     text-align: center;
+
+     background: #FFA30D;
+     border: none;
+     border-radius: 15px;
+     color: #ffffff;
+     margin-bottom: 10px;
+     font-family: arial black;
+     font-size: 18px;
+     text-align:center;
+     text-shadow: 3px 3px 3px rgba(0,0,0,0.95);
+     box-shadow: 0 15px 10px rgba(0,0,0,0.45);
+ }
+  #typePokemones:hover{
+   background: #FF0D40;
+
+  }
+  #typePokemones:hover  {
+  -webkit-transform:scale(1.3);
+  -moz-transform:scale(1.3);
+  -ms-transform:scale(1.3);
+  -o-transform:scale(1.3);
+  transform:scale(1.3);
+  }
 
 
 
