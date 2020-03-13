@@ -10,9 +10,10 @@
     <link rel="icon" type="image" href="./logo-pokefan.png">
   </head>
   <body>
+
     <!-- contenedor padre -->
     <div class="contenedor">
-      <section class="header-inicio">
+      <section class="header-inicio" id="header-inicio">
         <div class="contenedor-inicio"><!-- contenedor hijo de pagina de inicio -->
           <div class="logo-letras">
             <img src=https://i.ibb.co/vV89K5T/logo-pokefan.png alt="">
@@ -31,7 +32,7 @@
      </section>
      <!-- pagina principal -->
      <section class="contenido">
-        <a name="segunda-seccion"></a>
+        <a name="segunda-seccion" id="segunda-seccion"></a>
         <div class="contenido-principal">
        <div class="header">
          <img src="https://i.ibb.co/cbwJy0K/logo-principal1.png" class="logo-principal" alt="">
@@ -52,6 +53,7 @@
            </div>
            <div id="ListadePokemones">
             <aside>
+              <a id="verOrder">
                <div id="orderPoke" class="orderPoke">
                 <select id="orderPokemon" class="orderPokemon">
                  <option>Ordenar:</option>
@@ -59,9 +61,10 @@
                  <option value="01">Z-A</option>
                  <option value="02">1-151</option>
                  <option value="03">151-1</option>
-                </select>
+                </select></a>
                 <br>
               <!-- Aqui colocamos un select para filtrar por tipo de pokemon -->
+              <a id="verFiltro">
               <div id="filterTypePokemon">
                 <select id="typePokemones">
                   <option value="00">Tipo pokémon</option>
@@ -80,9 +83,11 @@
                   <option value="12">Tierra</option>
                   <option value="13">Veneno</option>
                   <option value="14">Volador</option>
-                 </select>
+                </select>
                 </div>
-                </div>
+                </a>
+
+              </div>
            </aside>
            <!-- aqui se muestran todas las tarjetas de los pokemones -->
              <div id="container-cards-pokemon" class="container-cards-pokemon"></div>
