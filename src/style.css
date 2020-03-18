@@ -1,101 +1,140 @@
+html{
+  width: 100%;
+  background-image: url(https://i.ibb.co/DQbvRx0/Untitled-5.jpg);
+  background-size: contain;
+  background-repeat: repeat-y;
+
+}
+
+
 .contenedor{
   display: flex;
   flex-flow: column nowrap;
-  width: 1350px;
-  height: 2500px;
-  background-image: url(https://i.ibb.co/DQbvRx0/Untitled-5.jpg);
-  background-size: contain;
+  width: 100%;
+  max-width: 1550px;
+  height: 100%;
+  margin:auto;
+  background-size: cover !important;
+   -webkit-background-size: cover !important;
+   -moz-background-size: cover !important;
+   -o-background-size: cover !important;
+   box-sizing: border-box;
+
+
 }
 
 .contenedor-inicio{
-  width: 1350px;
-  height: 650px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1350px;
+  height: 47vw;
   background-image: url(https://i.ibb.co/k4cCtVK/fondo-inicio-peque-o.jpg);
   background-position: center;
   background-attachment: contain;
   background-size: contain;
   background-repeat: no-repeat;
 
+
   display: flex;
   flex-flow: column nowrap;
 }
 
 .logo-letras img{
-  flex: 1 1 auto;
-  margin-top: 0;
-  margin-left: 430px;
-  width: 500px;
-  height: 180px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  height: 15vw;
   align: center;
 }
 
 #namecontent{
-  margin-left: 520px;
-  width: 300px;
-  height: 40px;
-  font-size: 20px;
+  display: block;
+  margin-top: -.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25vw;
+  height: 3vw;
+  font-size: 1.5vw;
   text-align: center;
   border-radius: 20px;
 
 }
 
 .boton-pokebola img{
-  flex: 1 1 auto;
-  margin-top: 15px;
-  margin-left: 595px;
-  width: 140px;
-  height: 170px;
+  display: block;
+  margin-top: -0.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  align: right;
+  width: 9vw;
+  height: 11vw;
 }
 
 .contenido{
-  width: 1350px;
-  height: 2500px;
-  background-image: url(https://i.ibb.co/DQbvRx0/Untitled-5.jpg);
-  background-size: contain;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .contenedor-contenido{
-  margin-top: 80px;
-  margin-left: 100px;
-  background-color: white;
-  width: 1150px;
-  height: 2500px;
+  display: block;
+  padding-top: 9vw;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85vw;
   align: center;
-  opacity: 0.8;
+
 
 }
 
 #paginaContenedorNombre{
-  margin-top: 40px;
-  margin-left: 50px;
-  padding-top: 20px;
+  display: block;
+  margin-top: 2.5vw;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   font-family: arial black;
-  font-size: 25px;
+  font-size: 2vw;
   opacity: 0.99;
 }
 
+
 .header{
-  margin-top: 30px;
-  margin-left: 100px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #5037D4;
-  width: 1150px;
-  height: 80px;
+  width: 85vw;
+  height: 7vw;
 }
 
 .logo-principal{
-  align: center;
-  margin-left: 500px;
-  width: 160px;
-  height: 200px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 13vw;
 }
 .container-portada{
-  margin-top: 30px;
-  width: 300;
-  height: 180px;
+  display: block;
+  margin-top: -3vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4vw;
+  width: 85vw;
+  height: 15vw;
   background-image: url(https://i.ibb.co/vPLZJ16/cabeza-21.png);
-  background-size:200%;
-  background-color: white;
+  background-size:150vw;
+  background-repeat: no-repeat;
 
 
   animation: movimiento 20s infinite linear alternate;
@@ -112,75 +151,303 @@
 }
 
 .capa-degradado{
-  margin-left: 70px;
-  width: 1000px;
-  height: 180px;
+  display: block;
+  margin-top: -1vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85vw;
+  height: 17vw;
   position: absolute;
   background: -webkit-linear-gradient(left, rgba(255,255,255, 0.0), rgba(255,255,255, 4.9), rgba(255,255,255, 0.0));
 }
 
-.container-details{
-  width: 100%;
-  max-width: 1200px;
-  position: relative;
-  margin-left: auto;
-}
-
-.details{
-  width: 100%;
-  max-width: 500px;
-  position: relative;
-  top: 20px;
-}
 
 p{
-  margin-top: 5px;
-  margin-left: 50px;
-  padding-bottom: 30px;
-  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 4vw;
+  padding-top: .5vw;
   text-align: center;
-  font-size: 1.5em;
-  font-family: arial bold;
-  opacity: 0.99
+  font-family: arial;
+  font-size:2vw;
 }
-
-.pokemones{
-  margin-top: 10px;
-}
-
 
 
 .cuadrado{
-  width: 400px;
-  height: 60px;
-  align; left;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 85vw;
+  margin-top: 5vw;
+  width: 85vw;
+  height: 5vw;
+  align: left;
   background-color: #7FFF00;
 }
 
-.cuadrado-blanco:{
-  margin-left: 500px;
-  width: 100px;
-  height: 60px;
+.pokemones p{
+  display: block;
   background-color: white;
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -7vw;
+  font-size: 4vw;
+  text-align: center;
+  font-family: arial black;
+  text-shadow: 2px  0px 0px #0090FF,
+               0px  2px 0px #0090FF,
+              -2px  0px 0px #0090FF,
+               0px -2px 0px #0090FF;
+}
 
+
+
+.pokemones a{
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none
 
 }
 
-.cuadrado-1{
-  margin-left: 750px;
-  width: 400px;
-  height: 60px;
-  background-color: #7FFF00;
+#ListadePokemones{
+  position: relative;
+  display:inline-flex;
+  margin-top: -8vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85vw;
+  background-color: rgba(255,255,255,0.8);
+}
+
+aside{
+  display: inline-flex;
+  width:18vw;
+  height: 80vw;
+  margin-left: 1vw;
+  margin-top: 4vw;
+  background-color: rgba(80,55,212,0.5);
+  border-radius: 3vw;
+}
+
+.logo-aside{
+  display: inline-flex;
+  width: 10vw;
+  height: 11vw;
+  margin: 4vw 4vw -6vw 4vw;
+  opacity: 0.95;
 }
 
 
 
-.aside{
-  width: 300px;
-  height: 2000px;
-  align; left: auto;
-  margin-left: 20px;
-  margin-top: 50px;
-  background-color: #5037D4;
-  opacity: 0.6;
+#orderPokemon{
+  display: block;
+  position: relative;
+  margin-top: 6vw;
+  margin-left: 0.5vw;
+  margin-right: auto;
+  width: 17vw;
+  height: 3vw;
+    text-align: center;
+    background:rgba(251,99,131,0.85);
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-bottom: 2vw;
+    font-family: arial black;
+    font-size: 1.5vw;
+    text-align:center;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.95);
+    box-shadow: 0 15px 10px rgba(0,0,0,0.35);
 }
+ #orderPokemon:hover{
+  background: #FFA30D
+
+ }
+ #orderPokemon:hover  {
+   -webkit-transform:scale(1.23);
+   -moz-transform:scale(1.23);
+   -ms-transform:scale(1.23);
+   -o-transform:scale(1.23);
+   transform:scale(1.23);
+   }
+
+ #typePokemones{
+   display: block;
+   position: relative;
+   margin-top: auto;
+   margin-left: 0.5vw;
+   margin-right: auto;
+   width: 17vw;
+   height: 3vw;
+     text-align: center;
+     background:rgba(255,163,13,0.85);
+     border: none;
+     border-radius: 15px;
+     color: #ffffff;
+     margin-bottom: 10px;
+     font-family: arial black;
+     font-size: 1.5vw;
+     text-align:center;
+     text-shadow: 3px 3px 3px rgba(0,0,0,0.95);
+     box-shadow: 0 15px 10px rgba(0,0,0,0.45);
+ }
+  #typePokemones:hover{
+   background: #FF0D40;
+
+  }
+  #typePokemones:hover  {
+    -webkit-transform:scale(1.23);
+    -moz-transform:scale(1.23);
+    -ms-transform:scale(1.23);
+    -o-transform:scale(1.23);
+    transform:scale(1.23);
+    }
+
+//* diseño de tarjeta */
+article {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  height: auto;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+
+
+.card-link{
+  position: relative;
+  display:flex;
+}
+
+.container-cards-pokemon{/*Padre div de la lista de pokemones*/
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 3.5vw;
+  margin-left: 1vw;
+  grid-gap: 0.8vw; /*Indica el espacion entre lìneas*/
+  box-sizing: border-box;
+}
+
+
+
+.container-cards{
+  position: static;
+  display: grid;
+  margin: .8vw .6vw .8vw .6vw;
+  padding: 1vw;
+  width: 11vw;
+  height: 17vw;
+  align-content: center;
+  background-color: white;
+  background: -webkit-linear-gradient(bottom, rgba(145,219,202, 1.9), rgba(255,255,255, 0.0));
+  border: .4vw solid #5037D4;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.35);
+
+}
+
+
+.container-cards:hover  {
+-webkit-transform:scale(1.20);
+-moz-transform:scale(1.20);
+-ms-transform:scale(1.20);
+-o-transform:scale(1.20);
+transform:scale(1.20);
+border: .4vw solid #7FFF00;
+}
+
+
+.cuadro-dentro{
+  width: 11vw;
+  height: 17vw;
+  align.content: center;
+  background-color: white;
+  border-radius: 15px;
+  align.content: center
+
+}
+
+.contimg{
+  position: relative;
+  padding-left: 1vw;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 11vw;
+  height: 8vw;
+}
+
+.contimg img{
+  position: relative;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10vw;
+}
+
+.article-details{
+  width: 11vw;
+  height: 7vw;
+  border-radius:7px;
+  align-content: center
+
+}
+.article-details .nombre{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2.5vw;
+  font-size: 1.5vw;
+  text-align: center;
+  font-family: arial black;
+  text-shadow: 2px  0px 0px #98C934,
+               0px  2px 0px #98C934,
+              -2px  0px 0px #98C934,
+               0px -2px 0px #98C934;
+}
+
+
+.article-details .num{
+  margin-left: 1vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-size: 1.3vw;
+  text-align: center;
+  font-family: arial black;
+  opacity: 0.8;
+
+}
+
+.tipo{
+  width: 10vw;
+  margin-top: -2.8vw;
+  margin-left: 0.2vw;
+  padding: .3vw;
+  background-color: rgba(127,255,0,0.55);
+  font-family: arial black;
+  font-size: 1vw;
+  text-align: center;
+  border-radius: 8px;
+
+  }
+  .container-cards:hover .tipo{
+    width: 10vw;
+    margin-top: -2.8vw;
+    margin-left: 0.2vw;
+    padding: .3vw;
+    background-color: rgba(0,10,100,0.55);
+    font-family: arial black;
+    font-size: 1vw;
+    text-align: center;
+    border-radius: 8px;
+
+    }
