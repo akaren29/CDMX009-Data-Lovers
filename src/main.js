@@ -1,6 +1,6 @@
 import data from './data/pokemon/pokemon.js';
 import {sortData,filterData} from './data.js';
-//console.log(data.pokemon);
+console.log(data.pokemon);
 
 // funcion traer nombre
 let obtenerNombre = name => {
@@ -23,11 +23,11 @@ const template = (list) => {
       <div class = 'card-link'>
         <article class='container-cards id='container-cards'>
         <div class="cuadro-dentro">
-                  <div class='contimg'><img class='img' src='${pokemones.img}' /></div>
+                  <div class='contimg'><img src='${pokemones.img}' /></div>
                   <div class='article-details'>
                   <h3 class='num' > ${pokemones.num} </h3>
-                  <h4 class='nombre'>${pokemones.name}</h4>
-                  <h6 class='tipo'>Tipo: ${pokemones.type}</h6>
+                  <h4 class='nombre'>${pokemones.name}</h4><br>
+                  <h6 class='tipo'>${pokemones.type}</h6>
                 </div>
         </article>
        </div>
