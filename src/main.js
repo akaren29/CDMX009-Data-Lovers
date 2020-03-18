@@ -1,6 +1,6 @@
 import data from './data/pokemon/pokemon.js';
 import {sortData,filterData} from './data.js';
-console.log(data.pokemon);
+//console.log(data.pokemon);
 
 // funcion traer nombre
 let obtenerNombre = name => {
