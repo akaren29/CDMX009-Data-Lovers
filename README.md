@@ -88,27 +88,27 @@ y de equipo.
 
 ### UX
 
-- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [] Diseñar la aplicación pensando y entendiendo al usuario.
 - [x] Crear prototipos para obtener _feedback_ e iterar.
-- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 - [x] Planear y ejecutar _tests_ de usabilidad.
 
 ### HTML y CSS
 
 - [x] Entender y reconocer por qué es importante el HTML semántico.
-- [x] Identificar y entender tipos de selectores en CSS.
-- [x] Entender como funciona `flexbox` en CSS.
+- [] Identificar y entender tipos de selectores en CSS.
+- [] Entender como funciona `flexbox` en CSS.
 - [x] Construir tu aplicación respetando el diseño planeado (maquetación).
 
 ### DOM
 
 - [x] Entender y reconocer los selectores del DOM (querySelector | querySelectorAll).
 - [x] Manejar eventos del DOM. (addEventListener)
-- [x] Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value)
+- [] Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value)
 
 ### Javascript
 
-- [x] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
+- [] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
 - [x] Manipular objects (key | value).
 - [x] Entender el uso de condicionales (`if-else` | `switch`).
 - [x] Entender el uso de bucles (`for` | `forEach`).
@@ -123,7 +123,7 @@ y de equipo.
 ### Git y GitHub
 - [x] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
 - [x] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
-- [x] Colaborar en Github (pull requests).
+- [] Colaborar en Github (pull requests).
 
 ### Buenas prácticas de desarrollo
 - [ ] Organizar y dividir el código en módulos (Modularización).
