@@ -88,16 +88,16 @@ y de equipo.
 
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
 - [x] Crear prototipos para obtener _feedback_ e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 - [x] Planear y ejecutar _tests_ de usabilidad.
 
 ### HTML y CSS
 
 - [ ] Entender y reconocer por qué es importante el HTML semántico.
 - [x] Identificar y entender tipos de selectores en CSS.
-- [ ] Entender como funciona `flexbox` en CSS.
+- [x] Entender como funciona `flexbox` en CSS.
 - [x] Construir tu aplicación respetando el diseño planeado (maquetación).
 
 ### DOM
@@ -112,9 +112,9 @@ y de equipo.
 - [x] Manipular objects (key | value).
 - [x] Entender el uso de condicionales (`if-else` | `switch`).
 - [x] Entender el uso de bucles (`for` | `forEach`).
-- [ ] Entender la diferencia entre expression y statements.
+- [x] Entender la diferencia entre expression y statements.
 - [x] Utilizar funciones (parámetros | argumentos | valor de retorno).
-- [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
+- [x] Entender la diferencia entre tipos de datos atómicos y estructurados.
 - [x] Utilizar ES Modules (`import` | `export`).
 
 ### Pruebas Unitarias (_testing_)
