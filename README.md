@@ -95,8 +95,8 @@ y de equipo.
 
 ### HTML y CSS
 
-- [x] Entender y reconocer por qué es importante el HTML semántico.
-- [ ] Identificar y entender tipos de selectores en CSS.
+- [ ] Entender y reconocer por qué es importante el HTML semántico.
+- [x] Identificar y entender tipos de selectores en CSS.
 - [ ] Entender como funciona `flexbox` en CSS.
 - [x] Construir tu aplicación respetando el diseño planeado (maquetación).
 
@@ -122,7 +122,7 @@ y de equipo.
 
 ### Git y GitHub
 - [x] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-- [x] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
+- [ ] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
 - [ ] Colaborar en Github (pull requests).
 
 ### Buenas prácticas de desarrollo
