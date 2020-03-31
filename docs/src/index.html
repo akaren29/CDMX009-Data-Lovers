@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>POKEFAN</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
+    maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image" href="./logo-principal.png">
+    <link rel="shortcut icon" href="https://assets.pokemon.com/static2/_ui/img/favicon.ico">
+  </head>
+  <body>
+
+    <!-- contenedor padre -->
+    <div class="contenedor">
+      <section class="header-inicio" id="header-inicio">
+        <div class="contenedor-inicio"><!-- contenedor hijo de pagina de inicio -->
+          <div class="logo-letras">
+            <img src=https://i.ibb.co/vV89K5T/logo-pokefan.png alt="">
+          </div>
+          <div class="poner-nombre">
+            <div id="name">
+         </div>
+          <div>
+            <input type="text" name="name" id="namecontent" placeholder="Escribe tu nombre"><br>
+            <div class="boton-pokebola">
+          <a href=#segunda-seccion type="button" id="acceder" class="boton-pokebola"><img src= "https://i.ibb.co/RBBXcN3/pokebola.png" alt=""></div></a>
+
+
+        </div>
+       </div>
+     </section>
+     <!-- pagina principal -->
+     <section class="contenido">
+        <a name="segunda-seccion" id="segunda-seccion"></a>
+        <div class="contenido-principal">
+       <div class="header">
+         <img src="https://i.ibb.co/cbwJy0K/logo-principal1.png" class="logo-principal" alt="">
+       </div>
+       <div class="contenedor-contenido">
+         <div class="container-portada">
+           <div class="capa-degradado">
+           <div id="paginaContenedorNombre"></div>
+           <p>En esta aplicación podras encontrar <br>todos los pokémones de la región Kanto,<br> primera generación  desde Bulbasaur hasta Mew. </p>
+          </div>
+         </div>
+         <div class="pokemones">
+           <a name=ir-pokemones></a>
+           <div class="cuadrado"></div>
+             <a href=#ir-pokemones><p>Pokémones</p></a>
+           <div class="cuadrado-1"></div>
+           </div>
+           <div id="ListadePokemones">
+            <aside>
+            <a id="verOrder">
+               <div id="orderPoke" class="orderPoke">
+                 <img src="https://i.ibb.co/cbwJy0K/logo-principal1.png" class="logo-aside"><br>
+                  <div id="orderPoke" class="orderPoke">
+                <select id="orderPokemon" class="orderPokemon">
+                 <option>Ordenar:</option>
+                 <option value="00">A-Z</option>
+                 <option value="01">Z-A</option>
+                 <option value="02">1-151</option>
+                 <option value="03">151-1</option>
+                </select></a>
+                <br>
+              <!-- Aqui colocamos un select para filtrar por tipo de pokemon -->
+              <a id="verFiltro">
+              <div id="filterTypePokemon">
+                <select id="typePokemones">
+                  <option value="00">Tipo pokémon</option>
+                  <option value="01">Agua</option>
+                  <option value="02">Bicho</option>
+                  <option value="03">Dragon</option>
+                  <option value="04">Electrico</option>
+                  <option value="04">Fantasma</option>
+                  <option value="05">Fuego</option>
+                  <option value="06">Hielo</option>
+                  <option value="07">Lucha</option>
+                  <option value="08">Normal</option>
+                  <option value="09">Hierba</option>
+                  <option value="10">Psiquico</option>
+                  <option value="11">Roca</option>
+                  <option value="12">Tierra</option>
+                  <option value="13">Veneno</option>
+                  <option value="14">Volador</option>
+                </select>
+                </div>
+                </a>
+
+              </div>
+           </aside>
+           <!-- aqui se muestran todas las tarjetas de los pokemones -->
+             <div id="container-cards-pokemon" class="container-cards-pokemon"></div>
+         </div>
+       </div>
+     </div>
+     <div class="footer"></div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
