@@ -192,7 +192,7 @@ p{
   width: 30vw;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -7vw;
+  margin-top: -6vw;
   font-size: 4vw;
   text-align: center;
   font-family: arial black;
@@ -216,11 +216,24 @@ p{
 #ListadePokemones{
   position: relative;
   display:inline-flex;
-  margin-top: -8vw;
+  margin-top: -5vw;
   margin-left: auto;
   margin-right: auto;
   width: 85vw;
   background-color: rgba(255,255,255,0.8);
+}
+
+#searchEngine{
+  display: block;
+  position: relative;
+  margin-top: 6vw;
+  margin-left: 0.5vw;
+  margin-right: auto;
+  margin-bottom: 1vw;
+  padding: 1vw;
+}
+ .search{
+  border-radius: 8px;
 }
 
 aside{
