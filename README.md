@@ -22,9 +22,11 @@ Herramienta usada Figma
 ![Prototipo baja fidelidad](https://github.com/akaren29/CDMX009-Data-Lovers/blob/master/assets/prototipobaja.PNG)
 ![Prototipo alta fidelidad](https://github.com/akaren29/CDMX009-Data-Lovers/blob/master/assets/prototipoalta.PNG)
 
+#### Test de Usabilidad
 
+Los testeos de usabilidad se realizarón con compañeras del mismo bootcamp, nos dieron feedback acerca de contraste y jerarquia en el diseño de prototipo, con familiares se realizó investigación para saber si la aplicación es intuitiva y amigable.
 
-### Objetivos alcanzados del proyecto
+### Objetivos alcanzados del proyecto:
 
 - [x] Diseñar la aplicación pensando y entendiendo al usuario.
 - [x] Crear prototipos para obtener _feedback_ e iterar.
