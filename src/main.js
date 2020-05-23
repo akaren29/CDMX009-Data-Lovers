@@ -1,5 +1,5 @@
 import data from './data/pokemon/pokemon.js';
-import {sortData,filterData} from './data.js';
+import {sortData,filterData, buscarPokemon} from './data.js';
 console.log(data.pokemon);
 
 // funcion traer nombre
@@ -38,6 +38,13 @@ const template = (list) => {
 };
 template(pokemones);
 
+
+//Funcion para buscar pokemones por nombre
+const obtenerNombrePokemon = document.getElementById("search");
+obtenerNombre = addEventListener('click', (event) => {
+  const pokemonBuscado = buscarPokemon(pokemones.name, event.target.value.toLowerCase());
+  template(pokemonBuscado)
+})
 
  //Función para ordenar a los pokemones
   document.getElementById('orderPokemon').addEventListener( 'click', (event) =>{

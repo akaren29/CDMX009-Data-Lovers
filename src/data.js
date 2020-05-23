@@ -53,4 +53,11 @@ const filterData = (data, condition) => {
  return arrType;
 };
 
-export {sortData, filterData}
+//Funcion buscar por nombre
+const buscarPokemon = (data, busqueda) =>{
+ return data.filter(objeto => objeto.name.toLowerCase().startsWith(busqueda));
+};
+
+
+
+export {sortData, filterData, buscarPokemon}
