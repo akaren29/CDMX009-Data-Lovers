@@ -19,6 +19,8 @@ Historias de usuario:
 ### Prototipo diseño interfaz 
 Herramienta usada Figma
 
+![Prototipo baja fidelidad](https://github.com/akaren29/CDMX009-Data-Lovers/blob/master/assets/prototipobaja.PNG)
+![Prototipo alta fidelidad](https://github.com/akaren29/CDMX009-Data-Lovers/blob/master/assets/prototipoalta.PNG)
 
 
 
