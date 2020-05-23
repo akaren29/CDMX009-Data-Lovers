@@ -1,5 +1,5 @@
 # PokeFan
-![https://github.com/akaren29/CDMX009-Data-Lovers/blob/master/assets/aplicacion.PNG]
+![Aplicación](https://github.com/akaren29/CDMX009-Data-Lovers/blob/master/assets/aplicacion.PNG)
 
 ## Descripción y objetivo del proyecto
 Este proyecto se desarrolló para que los fanáticos de la serie animada y el juego Pokémon go, puedan buscar información sobre los distintos tipos de pokémones de la región kanto, poder filtrar por tipo, ordenar alfabeticamente y por número.
